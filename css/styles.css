@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+
+body {
+  font-family: 'Antonio', serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 980px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 6em;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 0;
+  border-bottom: 1px solid #000;
+}
+
+h2 {
+  font-size: 2.5em;
+  text-align: left;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: 0;
+}
+
+.estancia-header {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.carta {
+  color: #777;
+  list-style-type: none;
+  padding: 0;
+}
+
+.carta li {
+  margin-bottom: 7px;
+}
+
+.carta div {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+
+.plato,
+.precio {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.plato {
+  float: left;
+  margin-right: 7px;
+}
+
+.precio {
+  float: right;
+  margin-left: 7px;
+}
+
+.cubierto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cubierto-precio {
+  flex-shrink: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.linea {
+  border-bottom: 1px solid #000;
+  width: 100%;
+}
+
+.link-top {
+  text-align: center;
+}
+
+.link-top>a {
+  color: #000;
+  text-decoration: none;
+}
+
+.estancia-footer {
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+.estancia-subfooter {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-bottom: 1px solid #000;
+}
