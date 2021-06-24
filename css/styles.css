@@ -113,6 +113,7 @@ h5 {
   text-align: center;
   margin-top: 0.5em;
   margin-bottom: 0;
+  border-bottom: 1px solid #000;
 }
 
 .estancia-subfooter {
