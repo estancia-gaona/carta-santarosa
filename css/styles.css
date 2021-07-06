@@ -46,6 +46,10 @@ h5 {
   margin-bottom: 0;
 }
 
+#promo {
+  text-align: center;
+}
+
 .carta {
   color: #777;
   list-style-type: none;
