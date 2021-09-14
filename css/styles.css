@@ -81,6 +81,14 @@ h5 {
   margin-right: 7px;
 }
 
+.nuevo {
+  color: red;
+  float: left;
+  padding: 0.2em;
+  border: 2px solid red;
+  border-radius: 20%;
+}
+
 .precio {
   float: right;
   margin-left: 7px;
